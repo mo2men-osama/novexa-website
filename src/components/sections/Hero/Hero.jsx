@@ -5,13 +5,6 @@ import './Hero.css';
 
 const capabilities = ['Web Platforms', 'Mobile Applications', 'AI & Automation', 'Data & Analytics', 'UI/UX Design', 'Cloud & Integrations'];
 
-const nodes = [
-  { key: 'web', label: 'Web', className: 'hero-core__node--web' },
-  { key: 'mobile', label: 'Mobile', className: 'hero-core__node--mobile' },
-  { key: 'ai', label: 'AI', className: 'hero-core__node--ai' },
-  { key: 'data', label: 'Data', className: 'hero-core__node--data' },
-  { key: 'cloud', label: 'Cloud', className: 'hero-core__node--cloud' },
-];
 
 function HeroVisual() {
   return (

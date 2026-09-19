@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Button from '../ui/Button';
 import Container from './Container';
-import { navLinks } from '../../data/homeContent';
 import './Navbar.css';
 
 

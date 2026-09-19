@@ -136,7 +136,7 @@ export default function ProjectDetails() {
               <p>HAVE AN IDEA?</p>
 
               <h2>
-                Let's build something
+                Let&apos;s build something
                 <span> meaningful.</span>
               </h2>
 

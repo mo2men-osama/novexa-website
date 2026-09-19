@@ -172,7 +172,7 @@ export default function Work() {
             <p>HAVE A PROJECT IN MIND?</p>
 
             <h2>
-              Let's build something
+              Let&apos;s build something
               <span> meaningful.</span>
             </h2>
 

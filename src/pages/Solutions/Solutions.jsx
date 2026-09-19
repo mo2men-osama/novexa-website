@@ -275,7 +275,7 @@ export default function Solutions() {
         <Container>
           <p className="sol-cta__eyebrow">Start a project</p>
           <h2 className="sol-cta__heading">Ready to solve a real problem?</h2>
-          <p className="sol-cta__desc">Tell us what you're building. We'll tell you honestly whether we're the right fit.</p>
+          <p className="sol-cta__desc">Tell us what you&apos;re building. We&apos;ll tell you honestly whether we&apos;re the right fit.</p>
           <div className="sol-cta__actions">
             <Button type="button">
               Get in Touch <span className="button__arrow" aria-hidden="true">↗</span>

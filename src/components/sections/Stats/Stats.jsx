@@ -13,6 +13,7 @@ function Counter({ value, isActive, duration = 1400 }) {
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setCount(value);
       return undefined;
     }

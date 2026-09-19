@@ -7,6 +7,7 @@ import Solutions from './pages/Solutions/Solutions.jsx';
 import Work from './pages/Work/Work.jsx';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails.jsx';
 import About from './pages/About/About.jsx';
+import NotFound from './pages/NotFound/NotFound.jsx';
 import './styles/global.css';
 
 createRoot(document.getElementById('root')).render(
@@ -17,8 +18,9 @@ createRoot(document.getElementById('root')).render(
         <Route path="/services" element={<Services />} />
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/work/:id" element={<ProjectDetails />} />     
-        <Route path="/about" element={<About />} />  
+        <Route path="/work/:id" element={<ProjectDetails />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
